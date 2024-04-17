@@ -3,7 +3,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const equipos = [
         { nombre: "Independiente", pais: "Argentina", entrenador: "Carlos Tévez", logo: "fotos escudos/independiente.jpeg", copas: 18, fundado: 1905},
         { nombre: "Boca Juniors", pais: "Argentina", entrenador: "Diego Martínez", logo: "fotos escudos/boca.jpeg", copas: 13, fundado: 1905},
-        // Otros equipos...
+        { nombre: "River Plate", pais: "Argentina", entrenador: "Martín Demichelis", logo: "fotos escudos/river.jpeg", copas: 12, fundado: 1901},
+        { nombre: "Racing Club", pais: "Argentina", entrenador: "Gustavo Costas", logo: "fotos escudos/racing.jpeg", copas: 9, fundado: 1903},
+        { nombre: "San Lorenzo", pais: "Argentina", entrenador: "Eduardo Coudet", logo: "fotos escudos/san lorenzo.jpeg", copas: 6, fundado: 1908},
+        { nombre: "Vélez Sarsfield", pais: "Argentina", entrenador: "Mauricio Pellegrino", logo: "fotos escudos/velez.jpeg", copas: 5, fundado: 1910},
+        { nombre: "Rosario Central", pais: "Argentina", entrenador: "Leonardo Astrada", logo: "fotos escudos/rosario.jpeg", copas: 4, fundado: 1889},
+        { nombre: "Newell's Old Boys", pais: "Argentina", entrenador: "Diego Dabove", logo: "fotos escudos/newells.jpeg", copas: 6, fundado: 1903},
+        { nombre: "Estudiantes", pais: "Argentina", entrenador: "Pablo Guede", logo: "fotos escudos/estudiantes.jpeg", copas: 5, fundado: 1905},
+        { nombre: "Lanús", pais: "Argentina", entrenador: "Luis Zubeldía", logo: "fotos escudos/lanus.jpeg", copas: 3, fundado: 1915},
+        { nombre: "Banfield", pais: "Argentina", entrenador: "Julio Falcioni", logo: "fotos escudos/banfield.jpeg", copas: 1, fundado: 1896},
+        { nombre: "Gimnasia y Esgrima La Plata", pais: "Argentina", entrenador: "Leandro Somoza", logo: "fotos escudos/gimnasia.jpeg", copas: 2, fundado: 1887},
+        // Agrega más equipos según sea necesario
     ];
 
     // Crear una tabla HTML
